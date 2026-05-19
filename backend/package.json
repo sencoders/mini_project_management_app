@@ -1,0 +1,21 @@
+{
+  "name": "mini-pm-backend",
+  "version": "1.0.0",
+  "main": "src/server.js",
+  "scripts": {
+    "dev": "nodemon src/server.js",
+    "start": "node src/server.js"
+  },
+  "dependencies": {
+    "bcryptjs": "latest",
+    "cors": "latest",
+    "dotenv": "^17.4.2",
+    "express": "latest",
+    "jsonwebtoken": "latest",
+    "mongodb": "^7.2.0",
+    "mongoose": "latest"
+  },
+  "devDependencies": {
+    "nodemon": "latest"
+  }
+}
